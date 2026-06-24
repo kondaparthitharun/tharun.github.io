@@ -1,37 +1,271 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Tharun Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tharun Kondaparthi | Data Analyst Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 50px 10%;
+      background: linear-gradient(135deg, #111827, #1e293b);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 70px;
+    }
+
+    nav h2 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #ffffff;
+    }
+
+    .hero h3 {
+      font-size: 26px;
+      color: #38bdf8;
+      margin: 10px 0;
+    }
+
+    .hero p {
+      max-width: 750px;
+      margin: 20px 0;
+      color: #cbd5e1;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      background: #38bdf8;
+      color: #020617;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-top: 15px;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2.section-title {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #38bdf8;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+    }
+
+    .card h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .card p, .card li {
+      color: #cbd5e1;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin-left: 10px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Hi, I'm Tharun Kondaparthi 👋</h1>
 
-    <h2>Aspiring Data Analyst</h2>
+  <header>
+    <nav>
+      <h2>Tharun Portfolio</h2>
+      <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
+    <div class="hero">
+      <h1>Hi, I'm Tharun Kondaparthi</h1>
+      <h3>Aspiring Data Analyst</h3>
+      <p>
+        I am an aspiring Data Analyst with experience in Sales, Pre-Sales,
+        Business Development, and Customer Engagement. I am currently building
+        strong practical skills in Excel, SQL, Power BI, and Python to analyze
+        data, create dashboards, and support business decision-making.
+      </p>
+
+      <a class="btn" href="#projects">View Projects</a>
+      <a class="btn" href="https://www.linkedin.com/in/kondaparthi-tharun-a32180368" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
     <p>
-        I am an aspiring Data Analyst with experience in Sales and Pre-Sales.
-        I am currently learning Excel, SQL, Power BI and Python to build
-        data-driven solutions and dashboards.
+      I have a background in Business Development and Pre-Sales, where I gained
+      experience in communication, customer handling, lead management, and
+      understanding business requirements. Now I am transitioning into Data
+      Analytics, where I want to use data to solve business problems and create
+      meaningful insights.
     </p>
+  </section>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Excel</li>
-        <li>SQL</li>
-        <li>Power BI</li>
-        <li>Python</li>
-        <li>Data Visualization</li>
-    </ul>
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Blinkit Sales Dashboard</li>
-        <li>HR Analytics Dashboard</li>
-        <li>Netflix Data Analysis</li>
-    </ul>
+    <div class="cards">
+      <div class="card">
+        <h3>Data Tools</h3>
+        <ul>
+          <li>Excel</li>
+          <li>SQL</li>
+          <li>Power BI</li>
+          <li>Python</li>
+        </ul>
+      </div>
 
-    <h2>Contact</h2>
-    <p>Email: tharun.kondaparthi12@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/kondaparthi-tharun-a32180368</p>
+      <div class="card">
+        <h3>Analytics Skills</h3>
+        <ul>
+          <li>Data Cleaning</li>
+          <li>Data Visualization</li>
+          <li>Dashboard Creation</li>
+          <li>Business Analysis</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Professional Skills</h3>
+        <ul>
+          <li>Communication</li>
+          <li>Customer Handling</li>
+          <li>Problem Solving</li>
+          <li>Lead Management</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="card">
+      <h3>Sales / Pre-Sales / Business Development</h3>
+      <p>
+        Worked on customer interaction, product explanation, lead follow-up,
+        requirement understanding, and business communication. This experience
+        helped me understand how businesses work and how data can support better
+        decisions.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Blinkit Sales Dashboard</h3>
+        <p>
+          Created an interactive dashboard to analyze sales, revenue, orders,
+          product performance, and business trends.
+        </p>
+        <p><strong>Tools:</strong> Power BI, Excel</p>
+      </div>
+
+      <div class="card">
+        <h3>HR Analytics Dashboard</h3>
+        <p>
+          Built a dashboard to analyze employee attrition, department-wise
+          performance, and workforce insights.
+        </p>
+        <p><strong>Tools:</strong> Power BI, Excel</p>
+      </div>
+
+      <div class="card">
+        <h3>Netflix Data Analysis</h3>
+        <p>
+          Analyzed Netflix data to understand content trends, release years,
+          genres, and country-wise distribution.
+        </p>
+        <p><strong>Tools:</strong> Python, Pandas, Excel</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="card">
+      <p><strong>Email:</strong> tharun.kondaparthi12@gmail.com</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/kondaparthi-tharun-a32180368</p>
+      <p><strong>GitHub:</strong> github.com/kondaparthitharun</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Tharun Kondaparthi | Data Analyst Portfolio</p>
+  </footer>
+
 </body>
 </html>
