@@ -2,158 +2,159 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tharun Kondaparthi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tharun Kondaparthi | Data Analyst Portfolio</title>
 
   <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:Arial, sans-serif;
-      scroll-behavior:smooth;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
     }
 
-    body{
-      background:#050816;
-      color:#e5e7eb;
+    body {
+      background: #050816;
+      color: #e5e7eb;
     }
 
-    header{
-      min-height:100vh;
-      padding:25px 9%;
+    header {
+      min-height: 100vh;
+      padding: 25px 9%;
       background:
-      radial-gradient(circle at top right, rgba(56,189,248,.25), transparent 30%),
-      radial-gradient(circle at bottom left, rgba(168,85,247,.28), transparent 35%),
-      #050816;
+        radial-gradient(circle at top right, rgba(56,189,248,.25), transparent 30%),
+        radial-gradient(circle at bottom left, rgba(168,85,247,.28), transparent 35%),
+        #050816;
     }
 
-    nav{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      padding:18px 0;
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
     }
 
-    .logo{
-      font-size:28px;
-      font-weight:900;
-      background:linear-gradient(90deg,#38bdf8,#a855f7);
-      -webkit-background-clip:text;
-      color:transparent;
+    .logo {
+      font-size: 28px;
+      font-weight: 900;
+      background: linear-gradient(90deg,#38bdf8,#a855f7);
+      -webkit-background-clip: text;
+      color: transparent;
     }
 
-    nav a{
-      color:#cbd5e1;
-      text-decoration:none;
-      margin-left:22px;
-      font-weight:600;
-      transition:.3s;
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 22px;
+      font-weight: 600;
+      transition: .3s;
     }
 
-    nav a:hover{
-      color:#38bdf8;
+    nav a:hover {
+      color: #38bdf8;
     }
 
-    .hero{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:45px;
-      padding-top:90px;
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 45px;
+      padding-top: 90px;
     }
 
-    .hero-text{
-      max-width:700px;
-      animation:fadeUp 1s ease;
+    .hero-text {
+      max-width: 700px;
+      animation: fadeUp 1s ease;
     }
 
-    .badge{
-      display:inline-block;
-      padding:9px 18px;
-      border-radius:30px;
-      border:1px solid #7c3aed;
-      color:#c084fc;
-      background:rgba(124,58,237,.15);
-      margin-bottom:18px;
+    .badge {
+      display: inline-block;
+      padding: 9px 18px;
+      border-radius: 30px;
+      border: 1px solid #7c3aed;
+      color: #c084fc;
+      background: rgba(124,58,237,.15);
+      margin-bottom: 18px;
     }
 
-    h1{
-      font-size:60px;
-      line-height:1.1;
-      margin-bottom:15px;
+    h1 {
+      font-size: 60px;
+      line-height: 1.1;
+      margin-bottom: 15px;
     }
 
-    .gradient{
-      background:linear-gradient(90deg,#38bdf8,#a855f7);
-      -webkit-background-clip:text;
-      color:transparent;
+    .gradient {
+      background: linear-gradient(90deg,#38bdf8,#a855f7);
+      -webkit-background-clip: text;
+      color: transparent;
     }
 
-    .hero h2{
-      font-size:28px;
-      color:#cbd5e1;
-      margin-bottom:18px;
+    .hero h2 {
+      font-size: 28px;
+      color: #cbd5e1;
+      margin-bottom: 18px;
+      min-height: 38px;
     }
 
-    .hero p{
-      font-size:17px;
-      line-height:1.7;
-      color:#94a3b8;
-      margin-bottom:28px;
+    .hero p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #94a3b8;
+      margin-bottom: 28px;
     }
 
-    .btn{
-      display:inline-block;
-      padding:13px 24px;
-      border-radius:14px;
-      background:linear-gradient(90deg,#38bdf8,#8b5cf6);
-      color:white;
-      text-decoration:none;
-      font-weight:800;
-      margin:8px 8px 8px 0;
-      transition:.3s;
-      box-shadow:0 0 25px rgba(56,189,248,.25);
+    .btn {
+      display: inline-block;
+      padding: 13px 24px;
+      border-radius: 14px;
+      background: linear-gradient(90deg,#38bdf8,#8b5cf6);
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+      margin: 8px 8px 8px 0;
+      transition: .3s;
+      box-shadow: 0 0 25px rgba(56,189,248,.25);
     }
 
-    .btn:hover{
-      transform:translateY(-5px);
-      box-shadow:0 0 35px rgba(168,85,247,.6);
+    .btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 35px rgba(168,85,247,.6);
     }
 
-    .btn-outline{
-      background:transparent;
-      border:1px solid #475569;
-      box-shadow:none;
+    .btn-outline {
+      background: transparent;
+      border: 1px solid #475569;
+      box-shadow: none;
     }
 
-    .hero-card{
-      width:360px;
-      padding:28px;
-      border-radius:28px;
-      background:rgba(15,23,42,.75);
-      border:1px solid #334155;
-      box-shadow:0 0 55px rgba(124,58,237,.25);
-      animation:float 4s ease-in-out infinite;
+    .hero-card {
+      width: 360px;
+      padding: 28px;
+      border-radius: 28px;
+      background: rgba(15,23,42,.75);
+      border: 1px solid #334155;
+      box-shadow: 0 0 55px rgba(124,58,237,.25);
+      animation: float 4s ease-in-out infinite;
     }
 
-    .chart-box{
-      height:170px;
-      border-radius:20px;
-      background:linear-gradient(135deg,rgba(56,189,248,.22),rgba(168,85,247,.28));
-      display:flex;
-      align-items:end;
-      justify-content:center;
-      gap:13px;
-      padding:22px;
-      margin-bottom:25px;
+    .chart-box {
+      height: 170px;
+      border-radius: 20px;
+      background: linear-gradient(135deg,rgba(56,189,248,.22),rgba(168,85,247,.28));
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      gap: 13px;
+      padding: 22px;
+      margin-bottom: 25px;
     }
 
-    .bar{
-      width:35px;
-      border-radius:12px 12px 0 0;
-      background:linear-gradient(#38bdf8,#8b5cf6);
-      animation:grow 1.4s ease;
+    .bar {
+      width: 35px;
+      border-radius: 12px 12px 0 0;
+      background: linear-gradient(#38bdf8,#8b5cf6);
+      animation: grow 1.4s ease;
     }
 
     .bar:nth-child(1){height:45%;}
@@ -161,135 +162,135 @@
     .bar:nth-child(3){height:58%;}
     .bar:nth-child(4){height:88%;}
 
-    section{
-      padding:80px 9%;
-      border-top:1px solid rgba(148,163,184,.12);
+    section {
+      padding: 80px 9%;
+      border-top: 1px solid rgba(148,163,184,.12);
     }
 
-    .section-title{
-      font-size:36px;
-      color:white;
-      margin-bottom:35px;
+    .section-title {
+      font-size: 36px;
+      color: white;
+      margin-bottom: 35px;
     }
 
-    .section-title span{
-      color:#8b5cf6;
+    .section-title span {
+      color: #8b5cf6;
     }
 
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-      gap:22px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+      gap: 22px;
     }
 
-    .card{
-      padding:26px;
-      border-radius:20px;
-      background:rgba(15,23,42,.75);
-      border:1px solid #1e293b;
-      transition:.35s;
+    .card {
+      padding: 26px;
+      border-radius: 20px;
+      background: rgba(15,23,42,.75);
+      border: 1px solid #1e293b;
+      transition: .35s;
     }
 
-    .card:hover{
-      transform:translateY(-8px);
-      border-color:#8b5cf6;
-      box-shadow:0 0 35px rgba(124,58,237,.25);
+    .card:hover {
+      transform: translateY(-10px);
+      border-color: #8b5cf6;
+      box-shadow: 0 0 40px rgba(168,85,247,.45);
     }
 
-    .card h3{
-      color:#38bdf8;
-      margin-bottom:12px;
+    .card h3 {
+      color: #38bdf8;
+      margin-bottom: 12px;
     }
 
-    .card p,.card li{
-      color:#cbd5e1;
-      line-height:1.7;
-      font-size:15px;
+    .card p, .card li {
+      color: #cbd5e1;
+      line-height: 1.7;
+      font-size: 15px;
     }
 
-    .skill-tag{
-      display:inline-block;
-      padding:10px 16px;
-      border-radius:30px;
-      margin:7px;
-      color:#bae6fd;
-      background:rgba(56,189,248,.10);
-      border:1px solid rgba(56,189,248,.35);
-      transition:.3s;
-      font-weight:600;
+    .skill-tag {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 30px;
+      margin: 7px;
+      color: #bae6fd;
+      background: rgba(56,189,248,.10);
+      border: 1px solid rgba(56,189,248,.35);
+      transition: .3s;
+      font-weight: 600;
     }
 
-    .skill-tag:hover{
-      transform:scale(1.08);
-      background:rgba(124,58,237,.22);
+    .skill-tag:hover {
+      transform: scale(1.08);
+      background: rgba(124,58,237,.22);
     }
 
-    .tools{
-      margin-top:12px;
-      color:#a78bfa !important;
-      font-weight:bold;
+    .tools {
+      margin-top: 12px;
+      color: #a78bfa !important;
+      font-weight: bold;
     }
 
-    .contact-box a{
-      color:#38bdf8;
-      text-decoration:none;
+    .contact-box a {
+      color: #38bdf8;
+      text-decoration: none;
     }
 
-    footer{
-      text-align:center;
-      padding:28px;
-      background:#020617;
-      color:#94a3b8;
+    footer {
+      text-align: center;
+      padding: 28px;
+      background: #020617;
+      color: #94a3b8;
     }
 
-    .reveal{
-      opacity:0;
-      transform:translateY(35px);
-      transition:.8s ease;
+    .reveal {
+      opacity: 0;
+      transform: translateY(35px);
+      transition: .8s ease;
     }
 
-    .reveal.active{
-      opacity:1;
-      transform:translateY(0);
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
     }
 
-    @keyframes fadeUp{
-      from{opacity:0;transform:translateY(40px);}
-      to{opacity:1;transform:translateY(0);}
+    @keyframes fadeUp {
+      from {opacity:0; transform:translateY(40px);}
+      to {opacity:1; transform:translateY(0);}
     }
 
-    @keyframes float{
-      0%,100%{transform:translateY(0);}
-      50%{transform:translateY(-14px);}
+    @keyframes float {
+      0%,100% {transform:translateY(0);}
+      50% {transform:translateY(-14px);}
     }
 
-    @keyframes grow{
-      from{height:10%;}
+    @keyframes grow {
+      from {height:10%;}
     }
 
-    @media(max-width:850px){
-      nav{
-        flex-direction:column;
-        gap:15px;
+    @media(max-width:850px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
       }
 
-      nav a{
-        margin:0 8px;
-        font-size:14px;
+      nav a {
+        margin: 0 8px;
+        font-size: 14px;
       }
 
-      .hero{
-        flex-direction:column;
-        text-align:center;
-        padding-top:55px;
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 55px;
       }
 
-      h1{
-        font-size:40px;
+      h1 {
+        font-size: 40px;
       }
 
-      .hero-card{
-        width:100%;
+      .hero-card {
+        width: 100%;
       }
     }
   </style>
@@ -304,8 +305,8 @@
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
@@ -316,17 +317,18 @@
 
       <h1>Hi, I'm <br><span class="gradient">Tharun Kondaparthi</span></h1>
 
-      <h2>Turning Data into Business Insights</h2>
+      <h2 id="typing"></h2>
 
       <p>
-        I am an aspiring Data Analyst passionate about transforming data into meaningful insights. Currently, 
-        I am building strong skills in Excel, SQL, Power BI, and Python while working on real-world analytics projects.
-        My goal is to develop data-driven solutions, create interactive dashboards, uncover business insights, and help organizations make informed decisions through data.
-
+        Data is more than numbers — it's the foundation of smarter decisions.
+        As an aspiring Data Analyst, I am passionate about uncovering insights
+        hidden within data and transforming them into meaningful business solutions.
       </p>
 
       <a href="#projects" class="btn">View Projects</a>
-      <a href="resume.pdf" target="_blank" class="btn">📄 Download Resume</a>
+      <a href="resume.pdf" target="_blank" class="btn">📄 Resume</a>
+      <a href="https://github.com/kondaparthitharun" target="_blank" class="btn">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/kondaparthi-tharun-a32180368" target="_blank" class="btn">💼 LinkedIn</a>
       <a href="#contact" class="btn btn-outline">Contact Me</a>
     </div>
 
@@ -347,11 +349,14 @@
   <h2 class="section-title">About <span>Me</span></h2>
   <div class="card">
     <p>
-      I have practical experience in Sales, Pre-Sales, Business Development,
-      customer engagement, lead management, and requirement understanding.
-      This background helped me understand real business problems and customer needs.
-      Now I am transitioning into Data Analytics to use data for better reporting,
-      insights, dashboards, and decision-making.
+      I am on a journey to become a Data Analyst, driven by curiosity and a passion
+      for solving problems through data. Every dataset tells a story, and my goal is
+      to uncover patterns, trends, and insights that help businesses make smarter decisions.
+      <br><br>
+      Currently, I am strengthening my skills in Excel, SQL, Power BI, and Python
+      through hands-on projects and continuous learning. My focus is to create
+      impactful dashboards, generate actionable insights, and support data-driven
+      decision-making.
     </p>
   </div>
 </section>
@@ -364,43 +369,13 @@
   <span class="skill-tag">Power BI</span>
   <span class="skill-tag">Python</span>
   <span class="skill-tag">Data Cleaning</span>
+  <span class="skill-tag">Data Analysis</span>
   <span class="skill-tag">Dashboard Creation</span>
   <span class="skill-tag">Data Visualization</span>
-  <span class="skill-tag">Business Analysis</span>
-  <span class="skill-tag">CRM Handling</span>
-  <span class="skill-tag">Lead Management</span>
-  <span class="skill-tag">Communication</span>
-  <span class="skill-tag">Customer Handling</span>
-</section>
-
-<section id="experience" class="reveal">
-  <h2 class="section-title">Work <span>Experience</span></h2>
-
-  <div class="grid">
-    <div class="card">
-      <h3>Sales / Pre-Sales Experience</h3>
-      <p>
-        Worked on customer interaction, lead follow-up, product explanation,
-        requirement understanding, and client communication.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Business Development</h3>
-      <p>
-        Gained experience in identifying customer needs, explaining solutions,
-        handling objections, and supporting business growth.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Data Analytics Transition</h3>
-      <p>
-        Currently learning Excel, SQL, Power BI, and Python to build dashboards,
-        reports, and real-world business analytics projects.
-      </p>
-    </div>
-  </div>
+  <span class="skill-tag">Business Intelligence</span>
+  <span class="skill-tag">KPI Reporting</span>
+  <span class="skill-tag">Problem Solving</span>
+  <span class="skill-tag">Analytical Thinking</span>
 </section>
 
 <section id="projects" class="reveal">
@@ -408,7 +383,7 @@
 
   <div class="grid">
     <div class="card">
-      <h3>Blinkit Sales Dashboard</h3>
+      <h3>Blinkit Sales Performance Dashboard</h3>
       <p>
         Created an interactive dashboard to analyze sales, revenue, orders,
         product performance, and business trends.
@@ -417,7 +392,7 @@
     </div>
 
     <div class="card">
-      <h3>HR Analytics Dashboard</h3>
+      <h3>Workforce Attrition Analytics Dashboard</h3>
       <p>
         Built a dashboard to analyze employee attrition, department-wise data,
         workforce insights, and HR trends.
@@ -426,12 +401,39 @@
     </div>
 
     <div class="card">
-      <h3>Netflix Data Analysis</h3>
+      <h3>Netflix Content Intelligence Analysis</h3>
       <p>
         Analyzed Netflix dataset to understand content trends, genres,
         release years, and country-wise distribution.
       </p>
       <p class="tools">Python • Pandas • Excel</p>
+    </div>
+  </div>
+</section>
+
+<section id="certifications" class="reveal">
+  <h2 class="section-title">My <span>Certifications</span></h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Data Analytics Learning</h3>
+      <p>
+        Currently building strong foundations in Excel, SQL, Power BI, and Python.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Power BI Dashboards</h3>
+      <p>
+        Practicing dashboard creation, KPI tracking, and business reporting.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>SQL & Python Practice</h3>
+      <p>
+        Learning data querying, data cleaning, and basic analysis using SQL and Python.
+      </p>
     </div>
   </div>
 </section>
@@ -466,23 +468,41 @@
         </a>
       </p>
     </div>
+
+    <div class="card contact-box">
+      <h3>Phone</h3>
+      <p>+91 XXXXX XXXXX</p>
+    </div>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 Tharun Kondaparthi | Built with HTML, CSS & JavaScript</p>
+  <p>Designed & Developed by Tharun Kondaparthi 🚀</p>
 </footer>
 
 <script>
+  const text = "Transforming Data Into Actionable Insights 🚀";
+  let i = 0;
+
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("typing").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, 70);
+    }
+  }
+
+  typeWriter();
+
   const reveals = document.querySelectorAll(".reveal");
 
-  function revealOnScroll(){
-    for(let i = 0; i < reveals.length; i++){
+  function revealOnScroll() {
+    for (let i = 0; i < reveals.length; i++) {
       const windowHeight = window.innerHeight;
       const elementTop = reveals[i].getBoundingClientRect().top;
       const elementVisible = 120;
 
-      if(elementTop < windowHeight - elementVisible){
+      if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
       }
     }
